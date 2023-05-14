@@ -1,0 +1,33 @@
+body {
+    background: radial-gradient(circle at 50% -20.71%, #be5af5 0, #a04ff4 16.67%, #7944f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%); 
+    background-size: 400% 400%;
+    width: 600px;
+    height: 500px;
+}
+
+section {
+    display:flex;
+    width: 1200px;
+    height: 600px;
+
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+
+
+
+
+}
+section img:hover
+{
+    cursor: crosshair;
+    width: 200px;
+    opacity: 1;
+    filter: contrast(120%);
+
+}
